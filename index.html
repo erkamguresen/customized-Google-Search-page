@@ -1,66 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Hello!</title>
-    
+
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
-    
+    <link rel="stylesheet" href="/style.css" />
+
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
-  </head>  
+  </head>
   <body>
     <h1>Hi there!</h1>
     <h2>
-      Welcome to my customized 
-      <br><u>Google Search</u>
-      <br>page!
+      Welcome to my customized
+      <br /><u>Google Search</u> <br />page!
     </h2>
-    
-    <img src="https://www.google.com/logos/doodles/2015/googles-new-logo-5078286822539264.3-hp2x.gif" alt="Google Logo" id="logoImg">
-  
-    <br>
-        
-    <form >
-    <input type="text" placeholder="Type to search" id="searchItem" class="textField">
-      <br><br>
-      <button type="button" onclick="searchInputValue();">Submit To Google Search</button>
-  </form>
-        
-    
-    <script>
-        function searchInputValue(){
-            // Selecting the input element and get its value 
-            var inputVal = document.getElementById("searchItem").value;
-          
-            //generate the link
-            var linkString = "https://www.google.com/search?q="+ inputVal;
 
-            
-            // Displaying an alert
-            alert("Redirecting to Google results...");
-          
-            //redirect web page
-            location.href=linkString;    
-      
-        }
-    </script>
-    
-    
-    
-     
-      <div class="bottomText">
-        <p>This is my new cool new webpage and it is made with <a href="https://glitch.com">Glitch</a>!
-    </p>
+    <img
+      src="../images/googles-new-logo-5078286822539264.3-hp2x.gif"
+      alt="Google Logo"
+      id="logoImg"
+    />
+
+    <br />
+
+    <form>
+      <input
+        type="text"
+        placeholder="Type to search"
+        id="searchItem"
+        class="textField"
+      />
+      <br /><br />
+      <button type="button" onclick="searchInputValue();">
+        Submit To Google Search
+      </button>
+    </form>
+
+    <div class="bottomText">
+      <p>
+        This is my new cool new webpage and it is made with
+        <a href="https://glitch.com">Glitch</a>!
+      </p>
     </div>
 
     <!-- include the Glitch button to show what the webpage is about and
           to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <div
+      class="glitchButton"
+      style="position: fixed; top: 20px; right: 20px"
+    ></div>
     <script src="https://button.glitch.me/button.js" defer></script>
   </body>
 </html>
