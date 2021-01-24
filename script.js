@@ -4,7 +4,11 @@
 // prints "hi" in the browser's dev tools console
 console.log("hi");
 
-function searchInputValue() {
+/**
+ * This function gets search text and adds it google search.
+ * Then redirects the web page to google search results page.
+ */
+function googleSearchPageRedirect() {
   // Selecting the input element and get its value
   var inputVal = document.getElementById("searchItem").value;
 
