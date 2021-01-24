@@ -1,0 +1,47 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background: linear-gradient(90deg, #CCFFFF, #FFCCCC);
+
+
+}
+
+h1 {
+  font-style: italic bold;
+  color: #373fff;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+.bottomText{
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+#logoImg {
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+form{
+  text-align: center;
+}
+
+.textField {
+  width : 70%;
+  height : 20px;
+  background-color: #a3fff6;
+  border: 1px solid #FFF;
+}
+
