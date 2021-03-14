@@ -27,8 +27,9 @@
     />
 
     <br />
+    <!-- old form -->
 
-    <form>
+    <!-- <form>
       <input
         type="text"
         placeholder="Type to search"
@@ -39,6 +40,19 @@
       <button type="button" onclick="googleSearchPageRedirect();">
         Submit To Google Search
       </button>
+    </form> -->
+
+    <!-- new form -->
+
+    <form action="https://www.google.com/search" method="get">
+      <input
+        type="text"
+        placeholder="Type to search"
+        id="searchItem"
+        class="textField"
+        name="q"
+      />
+      <input type="submit" value="Send" />
     </form>
 
     <div class="bottomText">
